@@ -1,6 +1,6 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
+    "name": "myproject/ibes",
+    "description": "Intellect Back End Solutions",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
@@ -20,7 +20,8 @@
     "autoload": {
         "classmap": [
             "database/seeds",
-            "database/factories"
+            "database/factories",
+            "app/Models"
         ],
         "psr-4": {
             "App\\": "app/"
